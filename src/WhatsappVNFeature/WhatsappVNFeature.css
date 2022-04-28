@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+button {
+	margin: auto;
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+
+	/* flex-direction: column; */
+}
+.mic {
+	position: absolute;
+	right: 0;
+}
+.top-section {
+	margin: auto;
+	/* padding: 0; */
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	right: 0;
+	top: 35px;
+	/* border: 1px solid red; */
+	right: 5px;
+}
+.left-section {
+	border: 1px solid green;
+	justify-content: space-between;
+	padding: 0;
+	width: 400px;
+	right: 120px;
+	align-items: center;
+	position: absolute;
+	display: flex;
+}
+.less {
+	margin-left: 5px;
+}
+#click-mic {
+	border-radius: 50%;
+	cursor: pointer;
+	border: 1px solid rgb(109, 239, 239);
+}
+#filled-mic {
+	border: 1px solid red;
+	margin: 0 !important;
+	/* fill: red !important; */
+}
+/* #click-mic:hover {
+	transform: scale(1.4);
+} */
+.arrow-up {
+	color: black;
+}
+.open-padlock {
+	color: black;
+}
+.timeClass {
+	/* font-size: 2rem; */
+}
