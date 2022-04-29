@@ -2,17 +2,33 @@ body {
 	margin: 0;
 	padding: 0;
 }
+h3 {
+	color: rgb(84, 80, 80);
+	font-weight: 400;
+}
 button {
 	margin: auto;
 	position: relative;
 	display: flex;
 	align-items: center;
-	width: 400px;
+	width: 600px;
 	height: 400px;
 
 	/* flex-direction: column; */
 }
+.mic-icon {
+	background-color: #fff;
+	stroke: #fff;
+	stroke-width: 1px;
+	fill: green;
+}
+.filledMic {
+	fill: red;
+	/* stroke: #fff;
+	stroke-width: 1px; */
+}
 .mic {
+	/* background-color: #fff; */
 	position: absolute;
 	right: 0;
 }
@@ -25,29 +41,38 @@ button {
 	align-items: center;
 	right: 0;
 	top: 35px;
+	background-color: #fff;
+	border-radius: 40%;
 	/* border: 1px solid red; */
 	right: 5px;
 }
 .left-section {
-	border: 1px solid green;
+	/* border-radius: 5%; */
 	justify-content: space-between;
 	padding: 0;
 	width: 400px;
-	right: 120px;
+	right: 50px;
 	align-items: center;
 	position: absolute;
 	display: flex;
+	background-color: #fff;
+}
+.leftIcon {
+	margin-right: 2rem;
 }
 .less {
 	margin-left: 5px;
+	margin-right: 10px;
 }
 #click-mic {
 	border-radius: 50%;
 	cursor: pointer;
+	/* background-color: #fff; */
 	border: 1px solid rgb(109, 239, 239);
 }
 #filled-mic {
-	border: 1px solid red;
+	border-radius: 50%;
+
 	margin: 0 !important;
 	/* fill: red !important; */
 }
